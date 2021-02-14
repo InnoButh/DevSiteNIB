@@ -12,6 +12,7 @@ body {
   font-family: Ubuntu, sans-serif;
   color: #222;
   padding-bottom: 50px;
+  background-color: #f2e6d8;
 }
 
 .container {
@@ -19,11 +20,16 @@ body {
   margin: 0 auto;
 }
 
+.image {
+  padding: 20px;
+  border-radius: 50%;
+}
+
 /* Nav */
 
 .nav {
   position: fixed;
-  background-color: #222;
+  background-color: #d9843b;
   top: 0;
   left: 0;
   right: 0;
@@ -67,7 +73,7 @@ body {
 
 .nav a.current,
 .nav a:hover {
-  color: #c0392b;
+  color: #d9d9d9;
   font-weight: bold;
 }
 /* Hero */
